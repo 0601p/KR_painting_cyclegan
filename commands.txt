@@ -6,7 +6,7 @@ test
 python test.py --dataroot {file_path} --name {model_name} --model test --no_dropout --num_test 10000 --preprocess none
 {file_path} is path to test image folder
 checkpoints/{model_name} should have latest_net_G.pth
-current available model name: mixed_cyclegan_pretrained, noletter_cyclegan_pretrained, kimhongdo_cyclegan_pretrained, leejungseob_cyclegan_pretrained
+current available model name: mixed_cyclegan_pretrained, noletter_cyclegan_pretrained, kimhongdo_cyclegan_pretrained, leejungseob_cyclegan_pretrained, shinyunbok_cyclegan_pretrained
 image result folder = results/{model_name}/test_latest/images
 to test image with cpu: add "--gpu_ids -1" as argument
 to get best result: resize image to have 1024 pixels as "shorter" side
